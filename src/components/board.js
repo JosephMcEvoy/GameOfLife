@@ -11,6 +11,7 @@ export default class Board extends Component {
 					<div className="col-md-2"><btn className="btn btn-primary">Run</btn></div>
 					<div className="col-md-2"><btn className="btn btn-primary">Pause</btn></div>
 					<div className="col-md-2"><btn className="btn btn-primary">Clear</btn></div>
+					<div className="col-md-2">Generators: 0</div>
 				</div>
 			</div>
 		)
