@@ -5,7 +5,7 @@ class Board extends Component {
 	renderBoard(){
 		return this.props.cells.map((cell) => {
 			return (
-				<div className="grid-item" key={cell.id}>{cell.isAlive}</div>
+				<div className="grid-item" className={cell.isAlive ? "cellIsAlive" : "cellIsDead"} key={cell.id}></div>
 			)
 		})
 	}
