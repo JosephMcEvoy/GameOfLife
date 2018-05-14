@@ -1,3 +1,15 @@
-body {
-	padding: 20px;
+.container {
+}
+
+.grid-container {
+  display: grid;
+   grid-template-columns: auto auto auto auto;
+   grid: repeat(27, 26px) / auto-flow 26px;
+}
+
+.grid-container > div {
+  background-color: #8ca0ff;
+  width: 25px;
+  height: 25px;
+  text-align: center;
 }
